@@ -1,6 +1,6 @@
 **Key Value Store with Laravel**
 ----
-  <_This Laravel build implements a basic Key Value store using Predis. The REST API solution provides option for retrieving list of data, inserting data and updating data.._>
+  _This Laravel build implements a basic Key Value store using Predis. The REST API solution provides option for retrieving list of data, inserting data and updating data.._
 
 * **URL**
 
