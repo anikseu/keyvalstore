@@ -6,13 +6,12 @@
 
   <_base_url/api/_>
 
-* **Method:**
+* **Methods:**
   
-  <_The request type_>
 
   `GET` | `POST` | `PATCH` 
   
-*  
+
 **Show All Value in The Store**
 ----
   Returns json data about a all existing values in the store.
@@ -57,7 +56,37 @@
   * **Code:** 200 <br />
     **Content:** `{"status":"OK","count":1,"data":{"key1":"anik"}}`
     
- **Update Value by Key:**
+ **Insert value into the store:**
+----
+  Returns json about status of insertion of data.
+
+* **URL**
+
+  /values
+
+* **Method:**
+
+  `POST`
+  
+
+* **Data Params**
+
+  {"key1": "test", "key2": "test", "key3": "test"}
+
+* **Success Response:**
+
+  * **Code:** 200 <br />
+    **Content:** `{
+    "status": "OK",
+    "inserted": 3,
+    "data": {
+        "key1": "anik",
+        "key2": "test",
+        "key3": "test"
+    }
+}`
+
+**Update Value by Key:**
 ----
   Returns json about status of requested updates of values by key.
 
@@ -86,4 +115,5 @@
         "key3": "tasdest"
     }
 }`
- 
+
+
