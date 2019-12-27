@@ -57,9 +57,9 @@
   * **Code:** 200 <br />
     **Content:** `{"status":"OK","count":1,"data":{"key1":"anik"}}`
     
- **Show All Value in The Store**
+ **Update Value by Key:**
 ----
-  Returns json data about a all existing values in the store.
+  Returns json about status of requested updates of values by key.
 
 * **URL**
 
@@ -67,30 +67,7 @@
 
 * **Method:**
 
-  `GET`
-  
-
-* **Data Params**
-
-  None
-
-* **Success Response:**
-
-  * **Code:** 200 <br />
-    **Content:** `{"status":"OK","count":3,"data":{"key1":"anik","key3":"test","k3ey2":"test"}}`
-    
-**Update Value by Key: **
-----
-    Returns json about status of requested updates of values by key. 
-
-
-* **URL**
-
-  /values
-
-* **Method:**
-
-  `PATCH
+  `PATCH`
   
 
 * **Data Params**
@@ -109,6 +86,4 @@
         "key3": "tasdest"
     }
 }`
-
-
  
